@@ -1,30 +1,66 @@
-.App-header {
-    text-align: center;
-    padding: 50px;
-    background-color: #282c34;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #9c9c9c;
+  }
+  
+  .App-header {
+    background-color: #6d7b92;
     color: white;
-}
-
-#about-us {
-    text-align: center;
-    margin: 0 auto;
-    max-width: 800px;
-}
-
-#services {
-    text-align: center;
-}
-
-#services div {
-    border: 1px solid #ddd;
-    padding: 10px;
-    width: 30%;
-    border-radius: 8px;
-}
-
-footer {
-    text-align: center;
     padding: 20px;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .section {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .skills-container, .projects-container {
+    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .skill, .project-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+  }
+  
+  .contact-links a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  footer {
     background-color: #282c34;
     color: white;
-}
+    text-align: center;
+    padding: 10px;
+  }
+  
