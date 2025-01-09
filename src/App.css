@@ -1,0 +1,30 @@
+.App-header {
+    text-align: center;
+    padding: 50px;
+    background-color: #282c34;
+    color: white;
+}
+
+#about-us {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+#services {
+    text-align: center;
+}
+
+#services div {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 30%;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #282c34;
+    color: white;
+}
